@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gotazx/API-MTA.git"
+    "url": "git+https://github.com/wgota/API-MTA.git"
   },
   "author": "wgota",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Gotazx/API-MTA/issues"
+    "url": "https://github.com/wgota/API-MTA/issues"
   },
-  "homepage": "https://github.com/Gotazx/API-MTA#readme",
+  "homepage": "https://github.com/wgota/API-MTA#readme",
   "dependencies": {
     "express": "^4.18.2",
     "gamedig": "^4.0.6"
