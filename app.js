@@ -17,7 +17,10 @@ app.get('/server/:ip/:port', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.statusMessage("/server/:ip/:port");
+    return res.status(200).json({
+        title: "Express Testing",
+        message: "The app is working properly!",
+      });
 });
 
 app.listen(3000, () => {
