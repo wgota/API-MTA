@@ -17,10 +17,7 @@ app.get('/server/:ip/:port', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    return res.status(200).json({
-        title: "Express Testing",
-        message: "The app is working properly!",
-      });
+    return res.status(200).send("Use /server/:ip/:port");
 });
 
 const PORT = process.env.PORT || 3000;
