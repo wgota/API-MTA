@@ -1,0 +1,23 @@
+{
+  "name": "api-mta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gotazx/API-MTA.git"
+  },
+  "author": "wgota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gotazx/API-MTA/issues"
+  },
+  "homepage": "https://github.com/Gotazx/API-MTA#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "gamedig": "^4.0.6"
+  }
+}
