@@ -17,7 +17,10 @@ app.get('/server/:ip/:port', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    return res.status(200).send("Use /server/:ip/:port");
+    return res.status(200).json({
+        title: "Use /server/:ip/:port",
+        message: "API MTA",
+      });
 });
 
 const PORT = process.env.PORT || 3000;
