@@ -16,6 +16,10 @@ app.get('/server/:ip/:port', (req, res) => {
     });
 });
 
+app.get('/', (req, res) => {
+    res.statusMessage("/server/:ip/:port");
+});
+
 app.listen(3000, () => {
     console.log('Server running on port 3000');
 });
